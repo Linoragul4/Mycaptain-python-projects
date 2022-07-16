@@ -1,0 +1,14 @@
+#Assignment 2.1(Fibonacci numbers)
+Fn =int(input("Hey User! Enter the number : "))
+n1=0
+n2=1
+sum=0
+
+if Fn <= 0:
+    print("Invalid number")
+else:
+    for i in range(0,Fn):
+     print(sum,end=",")
+     n1=n2
+     n2=sum
+     sum=n1+n2
